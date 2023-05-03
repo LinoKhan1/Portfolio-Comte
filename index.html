@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://kit.fontawesome.com/yourcode.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="js/owl.carousel.min.css">
+    <link rel="stylesheet" href="js/owl.theme.default.min.css">
+    <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+    <link href="https://fonts.cdnfonts.com/css/verdana" rel="stylesheet">
+
+    <style>
+        #Compétences .row .col i {
+            position: relative;
+            font-size: 70px;
+            top: 20px;
+            left: 50%;
+            border-radius: 50%;
+            color: #fff;
+            -ms-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+            cursor: pointer;
+        }
+
+        /* Add a black background color to the top navigation */
+        .topnav {
+            overflow: hidden;
+            position: relative;
+            height: 150px;
+
+            top: 50px;
+        }
+
+        /* Style the links inside the navigation bar */
+        .topnav a {
+            float: left;
+            color: #f2f2f2;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            font-size: 1.5rem;
+            font-weight: 400;
+            text-transform: uppercase;
+        }
+
+        /* Change the color of links on hover */
+        .topnav a:hover {
+            color: #fff;
+        }
+
+        /* Add a color to the active/current link */
+        .topnav a.active {
+            color: white;
+        }
+
+        /* Right-aligned section inside the top navigation */
+        .topnav-right {
+            float: right;
+        }
+        .navbar-toggler-icon{
+            color:#fff;
+        }
+    </style>
+
+</head>
+
+<body>
+    <!-- Side Nav -->
+    <!-- The overlay -->
+    <div id="myNav" class="overlay">
+        <!-- Button to colse the overlay navigation -->
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times</a>
+
+        <!-- Overlay content -->
+        <div class="overlay-content">
+            <a href="index.html">ACCUEIL</a>
+            <a href="#propos">A PROPOS</a>
+            <a href="#epreuve">EPREUVES</a>
+            <a href="#contact">Contact</a>
+        </div>
+    </div>
+
+    <!-- Page content -->
+    <div class="content">
+
+        <div class="main" id="particles-js">
+            <div class="topnav">
+                <a class="active" href="index.html">NB</a>
+
+                <div class="topnav-right">
+                    <a href="index.html">ACCUEIL</a>
+                    <a href="#propos">A PROPOS</a>
+                    <a href="#epreuve">EPREUVES</a>
+                    <a href="#contact">CONTACT</a>
+                    <button onclick="openNav()" class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                </div>
+            </div>
+
+            <div class="container my-5" style="position: relative; padding-top: 70px;">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="p-5 mt-4">
+                            <h1 class="display-1 text-white text-center">Bonjour, Je Suis Comte Emerite Nick Bonda!</h1>
+
+                            <a href="#" class="btn btn-outline-dark">Voir Projet</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+        <!-- A Propos Section -->
+        <div id="propos" class="container my-5 propos">
+            <div class="row">
+                <div class="col-lg-6 image">
+
+
+
+                </div>
+                <div class="col-lg-6">
+                    <div class="p-5 mt-4">
+                        <h1 class="display-4">A Propos</h1>
+                        <h2>Présentation</h2>
+                        <p class="lead">Je m’appelle Bonda Nick Comte Emerite, je suis étudiant en deuxième année de BTS
+                            SIO option
+                            SISR ( Solutions d'infrastructure, systèmes et réseaux ). </p>
+                        <p class="lead"> Je suis actuellement à la
+                            recherche d’une alternance pour ma licence de septembre 2023 à 2024. Je reste ouvert à
+                            d’éventuelles propositions de rester des années de plus car je compte continuer en master.
+                        </p>
+                        <a href="files/CVNick.pdf">RETROUVER MON CV</a>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+        <!-- Qualites -->
+        <div class="container-fluid">
+            <div class="owl-carousel owl-theme">
+                <div class="row">
+                    <div class="col-sm">
+                        <h2>LOREM IPSUM</h2>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Porro iure dolorum repellat,
+                            perferendis error itaque. </p>
+                    </div>
+                    <div class="col-sm">
+
+                        <h2>LOREM IPSUM</h2>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Porro iure dolorum repellat,
+                            perferendis error itaque. </p>
+                    </div>
+                    <div class="col-sm">
+                        <h2>LOREM IPSUM</h2>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Porro iure dolorum repellat,
+                            perferendis error itaque.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="Compétences" class="container-fluid">
+            <h1 class="">Mes Certifications</h1>
+            <div class="row">
+                <div class="col-sm">
+                    <a href="files/Initiez-vous à Linux.pdf">
+                        Initiez-vous a Linux
+                    </a>
+                </div>
+                <div class="col-sm">
+                    <a href="files/découvrez l'univers de la cybersécurité-1.pdf">
+                        découvrez l'univers de la cybersécurité
+
+                    </a>
+                </div>
+                <div class="col-sm">
+                    <a href="files/Concevez votre réseau TCP IP.pdf">
+                        Concevez votre réseau TCP IP
+                    </a>
+                </div>
+                <div class="col-sm">
+                    <a href="files/Comprendre le Web.pdf">
+                        Comprende le Web
+                    </a>
+                </div>
+            </div>
+        </div>
+        <!--Epreuves-->
+        <div class="epreuves">
+            <div class="container">
+                <div class="e4">
+                    <div class="row">
+                        <h1 class="display-1 text-center">E4 Projets</h1>
+                    </div>
+                    <div class="row title">
+                        <div class="col-sm">
+                            
+                            <h1>
+                                Active Directory
+                            </h1>
+                            <a class="text-dark" href="files/Activedirectorye4.pdf">Voir Projet</a>
+
+
+                        </div>
+                        <div class="col-sm">
+                            <h1>
+                                OSPF
+                            </h1>
+                            <a class="text-dark" href="files/ospf-rip.pdf">Voir Projet</a>
+
+                        </div>
+                        <div class="col-sm">
+                            <h1>
+                                Virual Local Area Network
+                            </h1>
+                            <a class="text-dark" href="files/vlan.pdf" >Voir Projet</a>
+
+                        </div>
+
+                    </div>
+                    <div class="row">
+                        <div class="col-sm">
+                            <h1>
+                                Apache
+                            </h1>
+                            <a class="text-dark" href="files/apache.pdf">Voir Projet</a>
+
+                        </div>
+                        <div class="col-sm">
+                            <h1>
+                                Configuration NAT
+                            </h1>
+                            <a class="text-dark" href="files/nat.pdf">Voir Projet</a>
+
+                        </div>
+                        <div class="col-sm">
+                            <h1>
+                                GLPI
+                            </h1>
+                            <a class="text-dark" href="files/glpi-project .pdf">
+                                Voir Projet
+                            </a>
+
+                        </div>
+
+                    </div>
+
+                </div>
+                <div class="e5">
+                    <div class="row title">
+                        <h1 class="display-1 text-center">E5 Projets</h1>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm">
+                            <h1 >
+                                GLPI
+                            </h1>
+                            <a class="text-dark"  href="files/GlpiE4.pdf">
+                                Voir Projet
+                            </a>
+
+                        </div>
+                        <div class="col-sm" >
+                            <h1>
+                                Active Directory
+                            </h1>
+                            <a class="text-dark" href="files/Activedirectory.pdf" >Voir Projet</a>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+        <!--Contact-->
+
+
+        <div class="contact">
+            <div class="container">
+                <div class="row contact-form">
+                    <div class="col-lg-5">
+                        <h1 class="display-1">
+                            Contactez Moi!
+
+                        </h1>
+                        <p>+33 7 53 79 11 02</p>
+                        <p>nickbonda@gmail.com</p>
+                        <p>Paris, France</p>
+                    </div>
+
+                    <div class="col-lg-7">
+                        <form action="">
+                            <input type="text" name="user_name" placeholder='Name' />
+                            <input type='email' name="user_email" placeholder='Email' />
+                            <textarea name="message" placeholder='Message'></textarea>
+                            <input type='submit' value="SEND" class='btn' />
+                        </form>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <footer class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm">
+                        <p>
+                            Copyright 2023 NB, Tout droits reserves.
+
+                        </p>
+
+                    </div>
+                    <div class="col-sm">
+                        
+                                <a  href="index.html">
+                                    Accueil
+                                </a>
+                            
+                            
+                                <a  href="#propos">A Propos</a>
+                            
+                        
+                                <a  href="#epreuves">Epreuves</a>
+                            
+                            
+                                <a  href="#contact">Contact</a>
+                            
+                        </ul>
+                        
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+
+
+
+
+
+
+
+
+    </div>
+    <script src="js/script.js"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.15.4/js/solid.js"
+        integrity="sha384-/BxOvRagtVDn9dJ+JGCtcofNXgQO/CCCVKdMfL115s3gOgQxWaX/tSq5V8dRgsbc"
+        crossorigin="anonymous"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.15.4/js/fontawesome.js"
+        integrity="sha384-dPBGbj4Uoy1OOpM4+aRGfAOc0W37JkROT+3uynUgTHZCHZNMHfGXsmmvYTffZjYO"
+        crossorigin="anonymous"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="https://assets2.lottiefiles.com/packages/lf20_v9riyrep.json"></script>
+    <script src="js/particles.js"></script>
+    <script src="js/app.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.1.js"
+        integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI=" crossorigin="anonymous"></script>
+    <script>
+        $(document).ready(function () {
+
+            $(".owl-carousel").owlCarousel({
+                nav: true,
+                loop: true,
+                autoplay: true,
+                responsiveClass: true,
+                margin: 10,
+                responsive: {
+                    0: {
+                        items: 1,
+                        nav: true
+                    },
+                    600: {
+                        items: 2,
+                        nav: true
+                    },
+                    1000: {
+                        items: 3,
+                        nav: true
+                    }
+                }
+            });
+
+        });
+    </script>
+    <script>
+        var spanText = function spanText(text) {
+            var string = text.innerText;
+            var spaned = '';
+            for (var i = 0; i < string.length; i++) {
+                if (string.substring(i, i + 1) === ' ') spaned += string.substring(i, i + 1);
+                else spaned += '<span>' + string.substring(i, i + 1) + '</span>';
+            }
+            text.innerHTML = spaned;
+        }
+
+        var headline = document.querySelector("h2");
+
+        spanText(headline);
+
+        let animations = document.querySelectorAll('.animation');
+
+        animations.forEach(animation => {
+            let letters = animation.querySelectorAll('span');
+            letters.forEach((letter, i) => {
+                letter.style.animationDelay = (i * 0.1) + 's';
+            })
+        })
+    </script>
+
+
+</body>
+
+</html>
