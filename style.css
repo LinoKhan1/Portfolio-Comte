@@ -124,7 +124,7 @@ div.content {
 .main {
 
     height: 760px;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../images/home.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("home.jpg");
     background-size: cover;
     position: relative;
     padding-left: 150px;
@@ -215,7 +215,7 @@ div.content {
     height: 500px;*/
 }
 .row .image{
-    background-image: url("../images/profile.png");
+    background-image: url("profile.png");
     background-size: cover;
     background-color: #F8FAF9;
     position: relative;
@@ -325,7 +325,7 @@ div.content {
     height:650px;
     background-color: #191919;
     background-image: url();
-    background-image: url("../images/back-dark.jpg");
+    background-image: url("back-dark.jpg");
     background-size: cover;
 }
 #Compétences h1{
